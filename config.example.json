@@ -1,0 +1,14 @@
+{
+  "databricks_host": "https://e2-dogfood.staging.cloud.databricks.com",
+  "endpoint_name": "claude-code-gateway",
+  "model": "claude-sonnet-4-20250514",
+  "azure_ad": {
+    "tenant_id": "<azure-ad-tenant-id>",
+    "client_id": "<azure-ad-app-client-id>",
+    "scopes": ["openid", "profile", "email"]
+  },
+  "token_cache": {
+    "method": "keyring",
+    "fallback": "file"
+  }
+}
